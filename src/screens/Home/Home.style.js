@@ -86,6 +86,61 @@ const styles = StyleSheet.create({
     },
     input: {
         marginLeft: 10
+    },
+    categoryImage: {
+        width: 20,
+        height: 20
+    },
+    categoryContainer: {
+        flexDirection: 'row',
+        width: width * 0.25,
+        height: 45,
+        alignItems: 'center',
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: '100%',
+        justifyContent: 'center',
+        gap: 10,
+        marginRight: 20
+    },
+    categoryScroll: {
+        marginTop: 30,
+        height: 45,
+    },
+    mostPopText: {
+        marginTop: 30,
+        fontWeight: '600',
+        fontSize: 20
+    },
+    burgerContainer: {
+        width: width * 0.4,
+        height: height * 0.3,
+        marginRight: 20,
+        elevation: 8,
+        shadowColor: 'black',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.3,
+        shadowRadius: 4,
+        backgroundColor: '#FFFFFF',
+    },
+    burger: {
+        height: '100%',
+        width: '100%',
+        alignSelf: 'center',
+    },
+    imageContainer: {
+        height: '40%',
+        width: '80%',
+        alignSelf: 'center',
+        marginTop: 10
+    },
+    burgerName: {
+        fontWeight: 'bold',
+        fontSize: 16,
+        textAlign: 'center'
     }
 });
 
